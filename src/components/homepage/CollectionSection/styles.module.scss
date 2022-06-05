@@ -1,0 +1,54 @@
+.collectionWrapper {
+  background-color: #4E4AFF;
+  position: relative;
+  padding-top: 9.3vw;
+  padding-bottom: 8vw;
+
+  padding-left: 8.33vw;
+  padding-right: 8.33vw;
+
+  display: flex;
+  flex-direction: column;
+
+
+  h1 {
+    width: 100%;
+    text-align: left;
+    font-family: 'SewnTight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.16vw;
+    line-height: 115%;
+    color: #FFFFFF;
+  }
+
+  .bottomPart {
+    display: flex;
+    flex-direction: row;
+    
+    .description {
+      width: 57%;
+      margin-top: 2.9vw;
+      font-family: 'SewnTight';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.08vw;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      
+      color: #FFFFFF;
+    }
+
+
+    img {
+      width: 26.3vw;
+      height: 25.52vw;
+      justify-self: flex-end;
+      margin-left: 10vw;
+    }
+
+  }
+
+ 
+}

@@ -1,0 +1,43 @@
+@import '../assets/scss/helpers/variables.scss';
+@import '../assets/scss/helpers/grid.scss';
+
+.wrapper {
+  min-height: 100vw;
+  position: relative;
+  background-color: $blue;
+  width: 100vw;
+  overflow: hidden;
+  // margin-top: 30px;
+
+  @include md-width {
+    margin-top: 0px;
+  }
+
+  .background {
+    position: fixed;
+    margin-top: 83px;
+    width: 100vw;
+  }
+
+  .mintSection {
+    margin-top: 83px;
+  }
+
+  .aboutSection {
+    margin-top: 14vw;
+  }
+
+  .collectionSection {
+    margin-top: 23.33vw;
+  }
+
+  .shopSection {
+    margin-top: 22.18vw;
+  }
+
+
+}
+
+.mobileWrapper {
+
+}

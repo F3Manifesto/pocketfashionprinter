@@ -1,0 +1,96 @@
+.mintWrapper {
+  background-color: #4E4AFF;
+  position: relative;
+  padding-top: 5vw;
+  padding-bottom: 4.2vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'SewnTight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.8vw;
+    line-height: 115%;
+    color: #FFFFFF;
+  }
+
+  h2 {
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.65vw;
+    line-height: 110%;
+    margin-top: 9vw;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;    
+  }
+
+  .mintForm {
+    height: 50vw;
+  }
+
+  .price {
+    font-family: 'CrossSew';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 100%;
+        
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 0.05vw #8AD545;    
+  }
+
+  .mintCount {
+    margin-top: 1.5vw;
+    font-family: 'CrossSew';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 0.1vw #6933B0;
+  }
+
+  .love {
+    margin-top: 7.5vw;
+    font-family: 'SewnTight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.08vw;
+    line-height: 110%;
+        
+    display: flex;
+    align-items: center;
+    text-align: center;
+        
+    color: #FFFFFF;
+
+    img {
+      width: 2.76vw;
+      height: 2.5vw;
+      margin-right: 1vw;
+    }
+  }
+}

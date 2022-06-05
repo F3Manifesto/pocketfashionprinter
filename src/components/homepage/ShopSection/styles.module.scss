@@ -1,0 +1,29 @@
+.shopWrapper {
+  background-color: #4E4AFF;
+  position: relative;
+  padding-top: 5vw;
+  padding-bottom: 4.2vw;
+  margin-bottom: 60vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'SewnTight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.2vw;
+    line-height: 115%;
+    color: #FFFFFF;
+  }
+
+  img {
+    margin-top: 1.8vw;
+    width: 24.63vw;
+    height: 66.14vw;
+  }
+}
