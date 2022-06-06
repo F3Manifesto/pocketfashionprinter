@@ -60,10 +60,27 @@ function Landing(props) {
     screenWidth > 707 ? setIsMobile(false) : setIsMobile(true)
   }, [screenWidth])
 
+  const setParallaxTrigger = () => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to("#background", {
+      y: (i, target) => {
+        return -target.offsetHeight;
+      },
+      ease: "none",
+      scrollTrigger: {
+        trigger: "#wrapper",
+        start: "top top",
+        end: "bottom bottom",
+        scrub: true
+      }
+    });
+  }
+
   useEffect(() => {
+
     if (typeof window !== "undefined") {
       console.log('here')
-      gsap.registerPlugin(ScrollTrigger);
     }
   }, []);
 
@@ -73,9 +90,9 @@ function Landing(props) {
       {
       // !isMobile ? 
       (
-        <div className={styles.wrapper}>
-          <div className={styles.background}>
-            <img src='/images/homepage/background.png' />
+        <div className={styles.wrapper} id='wrapper'>
+          <div className={styles.background} id='background'>
+            <img src='/images/homepage/background.png' onLoad={setParallaxTrigger} />
           </div>
           <section className={styles.mintSection}>
             <MintSection />

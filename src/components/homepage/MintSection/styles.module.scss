@@ -52,7 +52,14 @@
     
     color: #FFFFFF;
     
-    -webkit-text-stroke: 0.05vw #8AD545;    
+    -webkit-text-stroke: 0.05vw #8AD545;
+
+    img {
+      width: 1.09vw;
+      height: 1.71vw;
+      margin-right: 0.5vw;
+      margin-top: -0.2vw;
+    }
   }
 
   .mintCount {

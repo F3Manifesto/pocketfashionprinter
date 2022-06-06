@@ -19,7 +19,7 @@ const MintSection = props => {
 
       </div>
       <div className={styles.price}>
-        {price} EACH
+      <img src='/images/homepage/eth.png'/> {price} EACH
       </div>
       <div className={styles.mintCount}>
         {currentMint}/{totalMint}
