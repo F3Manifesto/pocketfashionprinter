@@ -59,12 +59,34 @@ function Landing(props) {
   useEffect(() => {
     screenWidth > 707 ? setIsMobile(false) : setIsMobile(true)
   }, [screenWidth])
+  
+  let oldGsapObj = null;
 
   const setParallaxTrigger = () => {
     gsap.registerPlugin(ScrollTrigger);
+    const oldTrigger = ScrollTrigger.getById("wrapper");
+    oldTrigger && oldTrigger.kill(true);
+    gsap.set("#wrapper", {clearProps: true});
 
-    gsap.to("#background", {
-      y: (i, target) => {
+    oldGsapObj && oldGsapObj.kill();
+    
+    const backObj = document.getElementById('background');
+    backObj.style.transform = 'translate(0, 0)';
+    // console.log('here', backObj.style.transform);
+    oldGsapObj = gsap.fromTo("#background", {
+      y: (i, target) => {       
+        return 0;
+      },
+      ease: "none",
+      scrollTrigger: {
+        trigger: "#wrapper",
+        start: "top top",
+        end: "bottom bottom",
+        scrub: true
+      }
+      },
+      {
+      y: (i, target) => {       
         return -target.offsetHeight;
       },
       ease: "none",
@@ -77,11 +99,12 @@ function Landing(props) {
     });
   }
 
-  useEffect(() => {
-
+  useEffect(() => {   
     if (typeof window !== "undefined") {
       console.log('here')
     }
+    window.addEventListener('resize', setParallaxTrigger);
+    return () => window.removeEventListener('resize', setParallaxTrigger);
   }, []);
 
 
