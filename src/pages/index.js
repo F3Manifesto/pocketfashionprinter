@@ -16,7 +16,7 @@ import { getUser } from '@helpers/user.helpers'
 //   POLYGON_CHAINID
 // } from '@constants/global.constants'
 
-import { gsap } from "gsap"
+import { gsap } from "gsap" 
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 
 import styles from './styles.module.scss'
