@@ -72,14 +72,13 @@ const HeaderTopLine = ({ buttonText }) => {
       </div>
 
       <div className={cn(styles.links, isCollapse ? styles.expandedMenu : "")}>
-        <button
+      <button
           className={styles.mobileBtn}
           onClick={() => setIsCollapse(!isCollapse)}
         >
           <div></div>
           <div></div>
           <div></div>
-          <img src="/images/icons/close-button.svg" />
         </button>
 
         <div className={styles.menuBar}>

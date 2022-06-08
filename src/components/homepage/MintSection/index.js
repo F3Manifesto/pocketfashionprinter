@@ -13,10 +13,10 @@ const MintSection = props => {
         Pocket Fashion Printers
       </h1>
       <h2>
-        Printing soon. End of June 2022.
+        Printing this CC0 Summer.
       </h2>
       <div className={styles.mintForm}>
-
+      <img className={styles.factory} src='/images/homepage/landingpage.png'/>
       </div>
       <div className={styles.price}>
       <img src='/images/homepage/eth.png'/> {price} EACH

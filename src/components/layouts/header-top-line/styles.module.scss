@@ -165,10 +165,10 @@
         padding: 11px 12px;
         border-radius: 10px;
 
-        font-family: 'NewYork';
+        font-family: 'SewnTight';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 23px;
         line-height: 100%;
         display: flex;
         align-items: center;
@@ -179,8 +179,12 @@
         transition: 0.3s all;
 
         &:hover {
-          transition: 0.3s all;
-          transform: scale(1.05);
+          transition: 0.1s all;
+          background-color: black;
+          transform: scale(1.5);
+          transform: rotate(360deg);
+
+          font-size: 30px;
         }
       }
 

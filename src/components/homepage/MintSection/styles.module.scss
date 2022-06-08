@@ -24,9 +24,9 @@
     font-family: 'NewYork';
     font-style: normal;
     font-weight: 400;
-    font-size: 3.65vw;
+    font-size: 2vw;
     line-height: 110%;
-    margin-top: 9vw;
+    margin-top: 2.5vw;
 
     display: flex;
     align-items: center;
@@ -36,7 +36,15 @@
   }
 
   .mintForm {
-    height: 50vw;
+    height: 110vw;
+  }
+
+
+  .factory {
+    position: absolute;
+    width: 1950px;
+    left: -1px;
+    top: 300px;
   }
 
   .price {

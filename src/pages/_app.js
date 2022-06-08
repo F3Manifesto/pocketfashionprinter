@@ -73,8 +73,8 @@ const MyApp = ({ Component, pageProps, store, err }) => {
   return (
     <Provider store={store}>
       <Head>
-        <title>Digitalax - Web3 Fashion Economy</title>
-        <link rel="icon" type="image/png" href="/images/icons/favicon-digitalax.ico" />
+        <title>Pocket Fashion Printer</title>
+        <link rel="icon" type="image/png" href="/images/icons/favicon.ico" />
         <link href="https://fonts.cdnfonts.com/css/internal-rainbows" rel="stylesheet" />
         <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet" />
         {loadArkane && <script src="/arkane-network/web3-arkane-provider.js"></script>}

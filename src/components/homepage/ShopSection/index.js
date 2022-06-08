@@ -7,7 +7,7 @@ const ShopSection = () => {
       <h1>
         The TAILOR’S SHOP
       </h1>
-      <img src='/images/homepage/shop.png' />
+      <img src='/images/homepage/tailorshop.svg' />
     </div>
   )
 }
