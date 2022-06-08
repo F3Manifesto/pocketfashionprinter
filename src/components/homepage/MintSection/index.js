@@ -16,7 +16,7 @@ const MintSection = props => {
         Printing this CC0 Summer.
       </h2>
       <div className={styles.mintForm}>
-      <img className={styles.factory} src='/images/homepage/landingpage.png'/>
+      <img className={styles.factory} src='/images/homepage/Group 186.png'/>
       </div>
       <div className={styles.price}>
       <img src='/images/homepage/eth.png'/> {price} EACH
