@@ -18,12 +18,6 @@ const MintSection = props => {
       <div className={styles.mintForm}>
       <img className={styles.factory} src='/images/homepage/Group 186.png'/>
       </div>
-      <div className={styles.price}>
-      <img src='/images/homepage/eth.png'/> {price} EACH
-      </div>
-      <div className={styles.mintCount}>
-        {currentMint}/{totalMint}
-      </div>
       <div className={styles.love}>
         <img src='/images/homepage/cc0-heart.png'/> made with love with cc0
       </div>
