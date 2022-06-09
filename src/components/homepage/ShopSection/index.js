@@ -5,7 +5,7 @@ const ShopSection = () => {
   return (
     <div className={styles.shopWrapper}>
       <h1>
-        The TAILOR’S SHOP
+       Pocket Tailor. Alterations to Go.
       </h1>
       <img src='/images/homepage/tailorshop.svg' />
     </div>
