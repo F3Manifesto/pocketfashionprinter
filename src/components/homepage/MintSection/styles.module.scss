@@ -44,10 +44,10 @@
     position: absolute;
     width: 1950px;
     left: 1px;
-    top: 300px;
+   top: 23vw;
   }
 
-  .price {
+  /*.price {
     font-family: 'CrossSew';
     font-style: normal;
     font-weight: 400;
@@ -68,17 +68,16 @@
       margin-right: 0.5vw;
       margin-top: -0.2vw;
     }
-  }
+  }*/
 
-  .mintCount {
+  /*.mintCount {
     margin-top: 1.5vw;
     font-family: 'CrossSew';
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 51px;
-    /* identical to box height */
-    
+
     display: flex;
     align-items: center;
     text-align: center;
@@ -86,7 +85,7 @@
     color: #FFFFFF;
     
     -webkit-text-stroke: 0.1vw #6933B0;
-  }
+  } */
 
   .love {
     margin-top: 7.5vw;

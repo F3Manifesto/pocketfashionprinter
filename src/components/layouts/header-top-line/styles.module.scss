@@ -178,6 +178,22 @@
         cursor: pointer;
         transition: 0.3s all;
 
+        @media (max-width: 576px) {
+          background-color: #FF3030;
+          padding: 7px 7px;
+          border-radius: 8px;
+  
+          font-family: 'SewnTight';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 100%;
+          display: flex;
+          align-items: center;
+          text-align: center;
+        }
+
+
         &:hover {
           transition: 0.1s all;
           background-color: black;
@@ -185,6 +201,16 @@
           transform: rotate(360deg);
 
           font-size: 30px;
+
+          @media (max-width: 576px) {
+            transition: 0.1s all;
+          background-color: black;
+          transform: scale(1.5);
+          transform: rotate(360deg);
+
+          font-size: 30px;
+
+          }
         }
       }
 
