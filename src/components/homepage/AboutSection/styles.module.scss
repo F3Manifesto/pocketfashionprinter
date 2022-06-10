@@ -18,6 +18,12 @@
     font-size: 7.8vw;
     line-height: 115%;
     color: #FFFFFF;
+
+    @media (max-width: 576px) {
+      font-size: 10vw;
+
+
+    }
   }
 
   .description {
@@ -33,5 +39,10 @@
     width: 100%;
     
     color: #FFFFFF;
+
+    @media (max-width: 576px) {
+      font-size: 4vw;
+  
+    }
   }
 }

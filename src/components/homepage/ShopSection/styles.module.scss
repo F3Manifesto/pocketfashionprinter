@@ -19,11 +19,23 @@
     font-size: 5.2vw;
     line-height: 115%;
     color: #FFFFFF;
+
+    @media (max-width: 576px) {
+      font-size: 7vw;
+
+
+    }
   }
 
   img {
     margin-top: 1.8vw;
     width: 24.63vw;
     height: 66.14vw;
+
+    @media (max-width: 576px) {
+      height: 150vw;
+      width: 80vw;
+
+    }
   }
 }

@@ -20,6 +20,12 @@
     font-size: 4.16vw;
     line-height: 115%;
     color: #FFFFFF;
+
+    @media (max-width: 576px) {
+      font-size: 9vw;
+
+
+    }
   }
 
   .bottomPart {
@@ -38,6 +44,12 @@
       align-items: center;
       
       color: #FFFFFF;
+
+      @media (max-width: 576px) {
+        font-size: 4vw;
+  
+  
+      }
     }
 
 
@@ -47,6 +59,12 @@
       justify-self: flex-end;
       margin-left: 10vw;
       margin-top: 7vw;
+
+      @media (max-width: 576px) {
+        height: 30vw;
+        width: 51.9vw;
+  
+      }
     }
 
   }
